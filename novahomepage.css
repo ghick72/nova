@@ -1,0 +1,57 @@
+.nova{
+  text-align: center;
+  background-image:url(novahomeback.jpg);
+}
+
+.box{
+  background-color: #615c5ce6;
+}
+
+.download_game{
+  color:orange;
+  border-right:1px solid gray;
+  width: 187px;
+  text-align: center;
+  padding-top: 29px;
+  height: 100vh;
+}
+
+.notice_board{
+  color: white;
+}
+body{
+  background-color: black;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+h1,h2{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul{
+  list-style:none;
+  padding:0;
+  border-bottom:solid #ecb823 3px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 8px;
+}
+
+li{
+  display:inline;
+  margin-right:150px;
+  color: #ecb823;
+}
+
+#grid1{
+  display: grid;
+  grid-template-columns: 200px 1fr;
+}
+
+#grid2{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
