@@ -1,50 +1,111 @@
 .nova{
   text-align: center;
-  background-image:url(novahomeback.jpg);
+  color: skyblue;
 }
 
 .box{
-  background-color: #615c5ce6;
+  background-color: #181818;
 }
 
 .download_game{
   color:orange;
-  border-right:1px solid gray;
+  border-right:1px solid #262626;
   width: 187px;
   text-align: center;
   padding-top: 29px;
   height: 100vh;
 }
 
+.introduceimg{
+  text-align: center;
+}
+
 .notice_board{
   color: white;
 }
+
+.notice_board1{
+border-bottom: 1px solid white;
+margin-right: 30px;
+}
+.notice_board2{
+border-bottom: 1px solid white;
+margin-right: 30px;
+}
+.notice_board3{
+border-bottom: 1px solid white;
+margin-right: 30px;
+}
+.notice_board4{
+border-bottom: 1px solid white;
+margin-right: 30px;
+}
+.notice_board5{
+border-bottom: 1px solid white;
+margin-right: 30px;
+}
+.notice_board6{
+border-bottom: 1px solid white;
+margin-right: 30px;
+}
+.notice_board7{
+  border-bottom: 1px solid white;
+  margin-right: 30px;
+}
+
+.WidgetMoreLink{
+  text-align: right;
+  margin-right: 30px;
+}
+
+.mainbackground{
+  background-color: #111111;
+}
+
 body{
-  background-color: black;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 20%;
+  margin-right: 20%;
+  background-image:url(novahomeback.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
 }
 
 h1,h2{
   margin-top: 0;
   margin-bottom: 0;
+  font-size: 50px;
 }
 
 ul{
   list-style:none;
   padding:0;
-  border-bottom:solid #ecb823 3px;
+  border-bottom:solid #dfc55b 3px;
   text-align: center;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 25px;
+  padding-bottom: 25px;
   margin-top: 8px;
 }
 
 li{
   display:inline;
-  margin-right:150px;
-  color: #ecb823;
+  margin-right:60px;
+  color: #dfc55b;
 }
+
+table{
+  border-spacing: 1px;
+  border-collapse: separate;
+  table-layout: fixed;
+}
+td{
+  width: 200px;
+  height: 23px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
 
 #grid1{
   display: grid;
