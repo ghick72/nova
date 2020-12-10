@@ -24,11 +24,11 @@
   color: white;
 }
 
-.board_line{
-  border-bottom: 1px solid white;
-}
 .notice_board1{
   float: left;
+}
+.board_line{
+  border-bottom: 1px solid white;
 }
 .notice_board2{
 float: left;
