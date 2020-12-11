@@ -24,12 +24,11 @@
   color: white;
 }
 
+.board_line{
+  border-bottom: 1px solid white;
+}
 .notice_board1{
   float: left;
-}
-.board_line{
-  border-bottom: 1px solid blue;
-  margin-bottom: 40;
 }
 .notice_board2{
 float: left;
@@ -75,10 +74,6 @@ float: left;
   color: #dfc55b;
 }
 
-.bottom_ul{
-  border-bottom:solid #dfc55b 1px;
-  border-top:solid #dfc55b 1px;
-}
 .bottom_ul ul{
   list-style:none;
   padding:0;
@@ -98,7 +93,6 @@ float: left;
 .asdf{
   color: white;
   font-size: 12px;
-  display: inline;
   float: left;
 }
 
@@ -107,6 +101,11 @@ float: left;
   margin: 0;
   color: dimgray;
   font-size: 12px;
+}
+
+.bottom_ul{
+  border-top:solid #dfc55b 1px;
+  border-bottom:solid #dfc55b 1px;
 }
 
 body{
